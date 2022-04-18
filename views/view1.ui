@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>929</width>
-    <height>622</height>
+    <width>810</width>
+    <height>634</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,10 +18,25 @@
     <bool>true</bool>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout" stretch="1,10">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
     <item>
      <widget class="QFrame" name="frame_superior">
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(114, 159, 207);</string>
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.494, y1:0.982727, x2:0.512, y2:0, stop:0.0909091 rgba(14, 14, 228, 255), stop:0.789773 rgba(56, 132, 255, 255));</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -33,7 +48,8 @@
        <item>
         <widget class="QLabel" name="titulo">
          <property name="styleSheet">
-          <string notr="true">font: 75 40pt &quot;Ubuntu Condensed&quot;;</string>
+          <string notr="true">font: 75 40pt &quot;Ubuntu Condensed&quot;;
+color: rgb(255, 255, 255);</string>
          </property>
          <property name="text">
           <string>INVENTARIO NIDAVELLIR STUDIO</string>
@@ -49,7 +65,7 @@
     <item>
      <widget class="QFrame" name="frame_inferior">
       <property name="styleSheet">
-       <string notr="true"/>
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.494, y1:0.982727, x2:0.512, y2:0, stop:0.0909091 rgba(14, 14, 228, 255), stop:0.789773 rgba(56, 132, 255, 255));</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -58,8 +74,26 @@
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="3,7">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
        <item>
         <widget class="QFrame" name="frame_menu">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -69,6 +103,40 @@
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
            <widget class="QPushButton" name="inventario">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+
+	
+	
+	
+	background-color:rgb(0, 0, 0);
+	font: 12pt &quot;MS Shell Dlg 2&quot;; color: rgb(255, 255, 255);
+    
+    
+    border-radius: 10px;
+
+
+}
+
+
+QPushButton:hover{
+
+
+	background-color: rgb(255, 255, 255);
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(0, 0, 0);
+  
+
+
+
+}</string>
+            </property>
             <property name="text">
              <string>INVENTARIO</string>
             </property>
@@ -76,6 +144,40 @@
           </item>
           <item>
            <widget class="QPushButton" name="anadir">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+
+	
+	
+	
+	background-color:rgb(0, 0, 0);
+	font: 12pt &quot;MS Shell Dlg 2&quot;; color: rgb(255, 255, 255);
+    
+    
+    border-radius: 10px;
+
+
+}
+
+
+QPushButton:hover{
+
+
+	background-color: rgb(255, 255, 255);
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(0, 0, 0);
+  
+
+
+
+}</string>
+            </property>
             <property name="text">
              <string>REGISTRAR</string>
             </property>
@@ -83,6 +185,40 @@
           </item>
           <item>
            <widget class="QPushButton" name="editar">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+
+	
+	
+	
+	background-color:rgb(0, 0, 0);
+	font: 12pt &quot;MS Shell Dlg 2&quot;; color: rgb(255, 255, 255);
+    
+    
+    border-radius: 10px;
+
+
+}
+
+
+QPushButton:hover{
+
+
+	background-color: rgb(255, 255, 255);
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(0, 0, 0);
+  
+
+
+
+}</string>
+            </property>
             <property name="text">
              <string>EDITAR</string>
             </property>
@@ -90,6 +226,40 @@
           </item>
           <item>
            <widget class="QPushButton" name="eliminar">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+
+	
+	
+	
+	background-color:rgb(0, 0, 0);
+	font: 12pt &quot;MS Shell Dlg 2&quot;; color: rgb(255, 255, 255);
+    
+    
+    border-radius: 10px;
+
+
+}
+
+
+QPushButton:hover{
+
+
+	background-color: rgb(255, 255, 255);
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(0, 0, 0);
+  
+
+
+
+}</string>
+            </property>
             <property name="text">
              <string>ELIMINAR</string>
             </property>
@@ -97,6 +267,40 @@
           </item>
           <item>
            <widget class="QPushButton" name="guardar_salir">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+
+	
+	
+	
+	background-color:rgb(0, 0, 0);
+	font: 12pt &quot;MS Shell Dlg 2&quot;; color: rgb(255, 255, 255);
+    
+    
+    border-radius: 10px;
+
+
+}
+
+
+QPushButton:hover{
+
+
+	background-color: rgb(245, 121, 0);
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+    color: rgb(0, 0, 0);
+  
+
+
+
+}</string>
+            </property>
             <property name="text">
              <string>GUARDAR Y SALIR</string>
             </property>
@@ -131,12 +335,17 @@
           </property>
           <item>
            <widget class="QStackedWidget" name="stackedWidget">
+            <property name="currentIndex">
+             <number>3</number>
+            </property>
             <widget class="QWidget" name="page_inventario">
              <layout class="QVBoxLayout" name="verticalLayout_4">
               <item>
                <widget class="QLabel" name="productos">
                 <property name="styleSheet">
-                 <string notr="true">font: 75 20pt &quot;Ubuntu Condensed&quot;;</string>
+                 <string notr="true">font: 75 20pt &quot;Ubuntu Condensed&quot;;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
                 </property>
                 <property name="text">
                  <string>PRODUCTOS</string>
@@ -156,6 +365,9 @@
                 </property>
                 <property name="autoFillBackground">
                  <bool>true</bool>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
                 </property>
                 <column>
                  <property name="text">
@@ -211,6 +423,35 @@
                 </item>
                 <item>
                  <widget class="QPushButton" name="refrescar">
+                  <property name="minimumSize">
+                   <size>
+                    <width>100</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+
+	
+	
+	
+	background-color: rgba(0, 0, 0,0%);
+	font: 11pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255);
+    border: none;
+
+
+}
+
+
+QPushButton:hover{
+
+
+	background-color:rgb(255, 140, 0);
+	font: 11pt &quot;MS Shell Dlg 2&quot;;
+    border: 10px;
+
+}</string>
+                  </property>
                   <property name="text">
                    <string>PushButton</string>
                   </property>
@@ -221,101 +462,814 @@
              </layout>
             </widget>
             <widget class="QWidget" name="page_anadir">
-             <widget class="QWidget" name="verticalLayoutWidget">
-              <property name="geometry">
-               <rect>
-                <x>0</x>
-                <y>100</y>
-                <width>141</width>
-                <height>291</height>
-               </rect>
-              </property>
-              <layout class="QVBoxLayout" name="verticalLayout_5">
-               <item>
-                <widget class="QLabel" name="label">
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QLabel" name="titulo_registrar">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>60</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 75 20pt &quot;Ubuntu Condensed&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                </property>
+                <property name="text">
+                 <string>REGISTRAR</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="layouth_registrar">
+                <item>
+                 <layout class="QVBoxLayout" name="layoutv_registrar_labels">
+                  <item>
+                   <widget class="QLabel" name="label_nombre">
+                    <property name="minimumSize">
+                     <size>
+                      <width>180</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>NOMBRE</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_tipo">
+                    <property name="minimumSize">
+                     <size>
+                      <width>180</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>TIPO</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_costo">
+                    <property name="minimumSize">
+                     <size>
+                      <width>180</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>COSTO</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_cantidad">
+                    <property name="minimumSize">
+                     <size>
+                      <width>180</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>CANTIDAD</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_area">
+                    <property name="minimumSize">
+                     <size>
+                      <width>180</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>AREA</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="layoutv_registrar_lineedits">
+                  <item>
+                   <widget class="QLineEdit" name="lineEdit_nombre">
+                    <property name="minimumSize">
+                     <size>
+                      <width>400</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="lineEdit_tipo">
+                    <property name="minimumSize">
+                     <size>
+                      <width>400</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="lineEdit_costo">
+                    <property name="minimumSize">
+                     <size>
+                      <width>400</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="lineEdit_cantidad">
+                    <property name="minimumSize">
+                     <size>
+                      <width>400</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="lineEdit_area">
+                    <property name="minimumSize">
+                     <size>
+                      <width>400</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_inferior">
+                <item>
+                 <widget class="QLabel" name="label_registrado">
+                  <property name="minimumSize">
+                   <size>
+                    <width>180</width>
+                    <height>60</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);font: 75 15pt &quot;Ubuntu Mono&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_3">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pb_registrar">
+                  <property name="minimumSize">
+                   <size>
+                    <width>100</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+
+	
+	
+	
+	background-color: rgba(0, 0, 0,0%);
+	font: 11pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255);
+    border: none;
+
+
+}
+
+
+QPushButton:hover{
+
+
+	background-color:rgb(255, 140, 0);
+	font: 11pt &quot;MS Shell Dlg 2&quot;;
+    border: 10px;
+
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>REGISTRAR</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="page_editar">
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <widget class="QLabel" name="label_titulo_editar">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>60</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 75 20pt &quot;Ubuntu Condensed&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                </property>
+                <property name="text">
+                 <string>EDITAR</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_buscar">
+                <item>
+                 <widget class="QLabel" name="label_buscar_editar">
+                  <property name="minimumSize">
+                   <size>
+                    <width>180</width>
+                    <height>60</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 75 15pt &quot;Ubuntu Condensed&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string>NOMBRE</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_buscar">
+                  <property name="minimumSize">
+                   <size>
+                    <width>400</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="layouth_editar">
+                <item>
+                 <layout class="QVBoxLayout" name="layoutv_registrar_labels_editar">
+                  <item>
+                   <widget class="QLabel" name="label_nombre_editar">
+                    <property name="minimumSize">
+                     <size>
+                      <width>180</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>NOMBRE</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_tipo_editar">
+                    <property name="minimumSize">
+                     <size>
+                      <width>180</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>TIPO</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_costo_editar">
+                    <property name="minimumSize">
+                     <size>
+                      <width>180</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>COSTO</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_cantidad_editar">
+                    <property name="minimumSize">
+                     <size>
+                      <width>180</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>CANTIDAD</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_area_editar">
+                    <property name="minimumSize">
+                     <size>
+                      <width>180</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string>AREA</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="layoutv_registrar_lineedits_editar">
+                  <item>
+                   <widget class="QLineEdit" name="lineEdit_nombre_editar">
+                    <property name="minimumSize">
+                     <size>
+                      <width>400</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="lineEdit_tipo_editar">
+                    <property name="minimumSize">
+                     <size>
+                      <width>400</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="lineEdit_costo_editar">
+                    <property name="minimumSize">
+                     <size>
+                      <width>400</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="lineEdit_cantidad_editar">
+                    <property name="minimumSize">
+                     <size>
+                      <width>400</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLineEdit" name="lineEdit_area_editar">
+                    <property name="minimumSize">
+                     <size>
+                      <width>400</width>
+                      <height>30</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_inferior_editar">
+                <item>
+                 <widget class="QLabel" name="label_actualizado">
+                  <property name="minimumSize">
+                   <size>
+                    <width>180</width>
+                    <height>60</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pb_actualizar">
+                  <property name="minimumSize">
+                   <size>
+                    <width>100</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+
+	
+	
+	
+	background-color: rgba(0, 0, 0,0%);
+	font: 11pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255);
+    border: none;
+
+
+}
+
+
+QPushButton:hover{
+
+
+	background-color:rgb(255, 140, 0);
+	font: 11pt &quot;MS Shell Dlg 2&quot;;
+    border: 10px;
+
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>ACTUALIZAR</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="page_eliminar">
+             <layout class="QVBoxLayout" name="verticalLayout_10">
+              <item>
+               <widget class="QLabel" name="titulo_eliminar">
+                <property name="styleSheet">
+                 <string notr="true">font: 75 20pt &quot;Ubuntu Condensed&quot;;
+background-color: rgba(255, 255, 255, 0);
+color:rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>ELIMINAR PRODUCTOS</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <item>
+                 <widget class="QLabel" name="label_buscar_eliminar">
+                  <property name="minimumSize">
+                   <size>
+                    <width>180</width>
+                    <height>60</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);
+</string>
+                  </property>
+                  <property name="text">
+                   <string>NOMBRE</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_eliminar">
+                  <property name="minimumSize">
+                   <size>
+                    <width>400</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QTableWidget" name="tabla_eliminar">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="autoFillBackground">
+                 <bool>true</bool>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <column>
+                 <property name="text">
+                  <string>CODIGO</string>
+                 </property>
+                </column>
+                <column>
                  <property name="text">
                   <string>NOMBRE</string>
                  </property>
-                 <property name="alignment">
-                  <set>Qt::AlignCenter</set>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLabel" name="label_3">
+                </column>
+                <column>
                  <property name="text">
                   <string>TIPO</string>
                  </property>
-                 <property name="alignment">
-                  <set>Qt::AlignCenter</set>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLabel" name="label_4">
+                </column>
+                <column>
                  <property name="text">
                   <string>COSTO</string>
                  </property>
-                 <property name="alignment">
-                  <set>Qt::AlignCenter</set>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLabel" name="label_5">
+                </column>
+                <column>
                  <property name="text">
                   <string>CANTIDAD</string>
                  </property>
-                 <property name="alignment">
-                  <set>Qt::AlignCenter</set>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLabel" name="label_6">
+                </column>
+                <column>
                  <property name="text">
                   <string>AREA</string>
                  </property>
-                 <property name="alignment">
-                  <set>Qt::AlignCenter</set>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>FECHA M.</string>
                  </property>
-                </widget>
-               </item>
-              </layout>
-             </widget>
-             <widget class="QWidget" name="verticalLayoutWidget_2">
-              <property name="geometry">
-               <rect>
-                <x>140</x>
-                <y>100</y>
-                <width>381</width>
-                <height>291</height>
-               </rect>
-              </property>
-              <layout class="QVBoxLayout" name="verticalLayout_6">
-               <item>
-                <widget class="QLineEdit" name="lineEdit_2"/>
-               </item>
-               <item>
-                <widget class="QLineEdit" name="lineEdit_3"/>
-               </item>
-               <item>
-                <widget class="QLineEdit" name="lineEdit"/>
-               </item>
-               <item>
-                <widget class="QLineEdit" name="lineEdit_5"/>
-               </item>
-               <item>
-                <widget class="QLineEdit" name="lineEdit_6"/>
-               </item>
-               <item>
-                <widget class="QLineEdit" name="lineEdit_4"/>
-               </item>
-              </layout>
-             </widget>
+                </column>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <item>
+                 <widget class="QLabel" name="label_eliminado">
+                  <property name="minimumSize">
+                   <size>
+                    <width>180</width>
+                    <height>60</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">
+font: 75 15pt &quot;Ubuntu Mono&quot;;
+color:rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_7">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pb_eliminar">
+                  <property name="minimumSize">
+                   <size>
+                    <width>100</width>
+                    <height>30</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+
+	
+	
+	
+	background-color: rgba(0, 0, 0,0%);
+	font: 11pt &quot;MS Shell Dlg 2&quot;; color:rgb(255, 255, 255);
+    border: none;
+
+
+}
+
+
+QPushButton:hover{
+
+
+	background-color:rgb(255, 140, 0);
+	font: 11pt &quot;MS Shell Dlg 2&quot;;
+    border: 10px;
+
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>ELIMINAR</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
             </widget>
-            <widget class="QWidget" name="page_editar"/>
-            <widget class="QWidget" name="page_eliminar"/>
            </widget>
           </item>
          </layout>
