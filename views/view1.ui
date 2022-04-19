@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>810</width>
+    <width>838</width>
     <height>634</height>
    </rect>
   </property>
@@ -336,7 +336,7 @@ QPushButton:hover{
           <item>
            <widget class="QStackedWidget" name="stackedWidget">
             <property name="currentIndex">
-             <number>3</number>
+             <number>1</number>
             </property>
             <widget class="QWidget" name="page_inventario">
              <layout class="QVBoxLayout" name="verticalLayout_4">
